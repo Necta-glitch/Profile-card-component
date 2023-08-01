@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  font-family: 'Kumbh Sans', sans-serif;
+  box-sizing: border-box;
+  background-color: hsl(185, 75%, 39%);
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  background-color: hsl(185, 75%, 39%);
+  justify-content: center;
+  background-image: url(images/bg-pattern-top.svg),url(images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 48vw bottom 40vh,left 45vw top 44vh;
+
+}
